@@ -58,3 +58,7 @@ class AvionComercial extends Aviones{
         return `El avion Comercial con placa "${this.placa}" esta volando`
     }
 }
+
+const comercial = new AvionComercial("comercial", 2021, "254asd", 30);
+console.log(comercial.asientosDisponibles(20));
+console.log(comercial.volarAvion());
